@@ -5,18 +5,32 @@ import java.util.Date;
 import java.util.List;
 
 public class Curriculum {
-    public String curName;
-    public Date starrDate;
-    public List<Cours> cours;
 
-    List<String> lists = new ArrayList<>();
+    private String Name;
+    private int days;
+    private List<Cours> cours;
 
-    public void kur() {
+    public String getName() {
+        return Name;
+    }
 
-        lists.add("Обзор технологий Java");
-        lists.add("Библиотека JFC/Swing");
-        lists.add("Технология JDBC");
-        lists.add("Библиотеки commons");
+    public void setName(String name) {
+        Name = name;
+    }
 
+    public int getStartDate() {
+        return days;
+    }
+
+    public void setStartDate(int startDate) {
+        this.days = startDate;
+    }
+
+    public List<Cours> getCours() {
+        return cours;
+    }
+
+    public void setCours(List<Cours> cours) {
+        this.cours = cours;
     }
 }

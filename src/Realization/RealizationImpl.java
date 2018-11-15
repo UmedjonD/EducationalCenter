@@ -1,23 +1,34 @@
 package Realization;
 
-import dto.Curriculum;
+import instance.StudentIns;
 
-public class RealizationImpl implements  Realization {
+public class RealizationImpl  {
 
-    Curriculum curriculum = new Curriculum();
+    public void out(StudentIns studentIns){
+        System.out.println(studentIns.students.getName()+" "
+                + studentIns.students.getCurriculim() + " "
+                + studentIns.students.getStart());
 
-    @Override
-    public void average() {
+        System.out.println(studentIns.students1.getName()+" "
+                + studentIns.students1.getCurriculim() + " "
+                + studentIns.students1.getStart());
 
-        double sum = 0;
-        double sred = 0;
-        int count = 0;
+        System.out.println(studentIns.students2.getName()+" "
+                + studentIns.students2.getCurriculim() + " "
+                + studentIns.students2.getStart());
 
-        for (int i = 0; i<curriculum.ratings.length; i++) {
-            sum += curriculum.ratings[i];
-            count++;
-        }
-        sred = sum / count;
-        System.out.println(" До окончания обучения по программе J2EE Developer осталось 6 ч. Средний балл " +sred+ " Отчислить");
+        System.out.println(studentIns.students3.getName()+" "
+                + studentIns.students3.getCurriculim() + " "
+                + studentIns.students3.getStart());
+
+        System.out.println(studentIns.students4.getName()+" "
+                + studentIns.students4.getCurriculim() + " "
+                + studentIns.students4.getStart());
     }
+
+    public void average(){
+        
+    }
+
+
 }
