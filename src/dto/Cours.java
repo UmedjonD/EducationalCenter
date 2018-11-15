@@ -3,8 +3,8 @@ package dto;
 import java.util.Date;
 
 public class Cours {
-    public String coursName;
-    public int clock;
+    private String coursName;
+    private int clock;
 
     public Cours(){
     }
@@ -29,11 +29,5 @@ public class Cours {
         this.clock = clock;
     }
 
-    @Override
-    public String toString() {
-        return "Cours{" +
-                "name='" + coursName + '\'' +
-                ", clock=" + clock +
-                '}';
-    }
+
 }
