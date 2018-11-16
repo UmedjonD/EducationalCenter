@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9596eebb-ea7f-4a59-86b4-385aa26deec7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instance/CoursIns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instance/MarksIns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instance/Refill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instance/StudentIns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EducationalCenter/Realization/Realization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EducationalCenter/Realization/RealizationImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EducationalCenter/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EducationalCenter/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EducationalCenter/dto/Cours.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EducationalCenter/dto/Cours.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EducationalCenter/dto/Progress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EducationalCenter/dto/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EducationalCenter/dto/Students.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Realization/Realization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Realization/RealizationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Realization/RealizationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/Cours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Cours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/Curriculum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Curriculum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/Marks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Marks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dto/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Students.java" afterDir="false" />
-    </list>
+    <list default="true" id="9596eebb-ea7f-4a59-86b4-385aa26deec7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +13,7 @@
     <session id="-1497499112">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
@@ -202,8 +182,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Realization/RealizationImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -306,7 +286,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542297688591" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542297793997" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -355,8 +335,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="183" y="91" width="1474" height="809" extended-state="0" />
-    <editor active="true" />
+    <frame x="151" y="44" width="1474" height="809" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13861386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -513,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Realization/RealizationImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

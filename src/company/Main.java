@@ -11,6 +11,9 @@ public class Main {
         System.out.println("======= СТУДЕНТЫ И ДАТА ПОСТУПЛЕНИЯ ========");
         realization.out(studentIns);
 
+        System.out.println("=======СРЕДНИЕ ОЦЕНКИ СТУДЕНТОВ=====");
+
+
 
 
 

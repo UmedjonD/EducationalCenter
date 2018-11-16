@@ -28,6 +28,7 @@ public class RealizationImpl  {
 
     public void average(){
         
+
     }
 
 
