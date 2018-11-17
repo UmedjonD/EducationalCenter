@@ -4,30 +4,39 @@ import java.util.Date;
 
 public class Cours {
     private String coursName;
-    private int clock;
+    private String coursname2;
+    private String clock;
 
     public Cours(){
     }
-    public Cours(String name, int clock){
-        this.coursName = name;
+
+    public Cours(String coursName, String coursname2, String clock) {
+        this.coursName = coursName;
+        this.coursname2 = coursname2;
         this.clock = clock;
     }
 
-    public String getName() {
+    public String getCoursName() {
         return coursName;
     }
 
-    public void setName(String name) {
-        this.coursName = name;
+    public void setCoursName(String coursName) {
+        this.coursName = coursName;
     }
 
-    public int getClock() {
+    public String getCoursname2() {
+        return coursname2;
+    }
+
+    public void setCoursname2(String coursname2) {
+        this.coursname2 = coursname2;
+    }
+
+    public String getClock() {
         return clock;
     }
 
-    public void setClock(int clock) {
+    public void setClock(String clock) {
         this.clock = clock;
     }
-
-
 }
