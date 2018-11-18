@@ -7,19 +7,28 @@ import java.util.Random;
 
 public class Generator {
     private Random random = new Random();
+    Output output = new Output();
 
     public Cours randomCours(){
 
         Cours cours = new Cours();
-        Output output = new Output();
 
-        String name = output.studList[random.nextInt(output.studList.size())];
-        cours.getCoursName(name);
+        String[] coursName = {"Технологий Java","Библиотека JFC/Swing","Технология JDBC",
+                "Технология JAX", "Библиотеки commons"};
+
+        String name = coursName[random.nextInt(coursName.length)];
+        cours.setCoursName(name);
+        return cours;
 
     }
     public Students studentRandom(){
 
-        
-        return null;
+        Students students =  new Students();
+        String name = output.studList(random.nextInt(output.studList.size()));
+        students.setName(name);
+
+        return students;
     }
+
+
 }
