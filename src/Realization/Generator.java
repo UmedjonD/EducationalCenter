@@ -21,14 +21,8 @@ public class Generator {
         return cours;
 
     }
-    public Students studentRandom(){
 
-        Students students =  new Students();
-        String name = output.studList(random.nextInt(output.studList.size()));
-        students.setName(name);
 
-        return students;
-    }
 
 
 }

@@ -35,6 +35,7 @@ public class Output {
                         studArray[m][n],
                         studArray[m][n+1],
                         studArray[m][n+2]));
+
             }
         }
         scanner.close();

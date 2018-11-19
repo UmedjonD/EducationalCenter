@@ -1,5 +1,6 @@
 package company;
 
+import Realization.OutData;
 import Realization.Output;
 import Realization.RealizationImpl;
 import dto.Cours;
@@ -17,13 +18,18 @@ public class Main {
         System.out.println("======= СТУДЕНТЫ И ДАТА ПОСТУПЛЕНИЯ ========");
 
         for (Students stud: output.studFile()){
-            System.out.println(stud.getName() +" " + stud.getCurriculim() + " " + stud.getStart());
-        }
+            OutData outData = new OutData();
+            int d = outData.out(stud.getStart());
+            System.out.println(stud.getName() + " " + stud.getCurriculim() + " поступил " + stud.getStart()+ " учится уже " + d + " дней");
+
+       }
 
         System.out.println();
         System.out.println("=======КУРСЫ И КОЛИЧЕСТВО ЧАСОВ=====");
         for (Cours cours: output.coursFile()){
             System.out.println(cours.getCoursName() + " " + cours.getCoursname2() + " " + cours.getClock());
         }
-    }
+
+   }
+
 }
